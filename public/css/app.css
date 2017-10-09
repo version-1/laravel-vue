@@ -1,0 +1,477 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  color: #333;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+}
+
+.header {
+  width: 100%;
+  background-color: #262426;
+}
+
+.header .navbar {
+  height: 100%;
+}
+
+.site-description {
+  padding-top: 10px;
+  color: white;
+}
+
+.title {
+  padding: 30px;
+  padding-left: 10%;
+}
+
+.title-text {
+  font-size: 3rem;
+  color: white;
+}
+
+.menu {
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #020202;
+  list-style-type: none;
+  overflow: hidden;
+  border: 0.5px solid #787F88;
+}
+
+.menu-item {
+  color: white;
+  float: left;
+  border-left: 0.1px solid #5E5C5E;
+}
+
+.menu li:last-child {
+  border-right: 0.5px solid #5E5C5E;
+}
+
+.menu-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+.menu-item.active {
+  background-color: #9AC34C;
+}
+
+.menu-item a:hover {
+  opacity: 0.8px;
+}
+
+.wrapper {
+  padding: 10%;
+  width: 100%;
+  padding-top: 5%;
+}
+
+.wrapper::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  margin-right: 5px;
+}
+
+.footer {
+  bottom: 0px;
+  padding: 5px;
+  padding-left: 10%;
+  width: 100%;
+  background-color: #262426;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.article {
+  padding: 2rem;
+}
+
+.sub-title {
+  font-size: 2.5rem;
+}
+
+.form {
+  text-align: center;
+  margin: 3em auto;
+  margin-top: 10%;
+  max-width: 370px;
+  padding: 40px;
+  border: 1px solid #67c5ff;
+  color: #67c5ff;
+}
+
+.form .form-title {
+  margin-bottom: 15%;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}
+
+.form .form-group {
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+.form .rememberme {
+  letter-spacing: 0.1rem;
+  color: #AFA98D;
+}
+
+.form .sub-link a {
+  color: #AFA98D;
+  letter-spacing: 0.1rem;
+}
+
+.form input[type=checkbox] {
+  display: none;
+}
+
+.form .checkbox {
+  color: #AFA98D;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0 42px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.form .checkbox:hover:after {
+  border-color: #AFA98D;
+}
+
+.form .checkbox:after {
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  display: block;
+  margin-top: -10px;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid #ccc;
+  content: '';
+}
+
+.form .checkbox:before {
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 21px;
+  display: block;
+  margin-top: -7px;
+  width: 0.7rem;
+  height: 1rem;
+  border-right: 3px solid #AFA98D;
+  border-bottom: 3px solid #AFA98D;
+  content: '';
+  opacity: 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.form input[type=checkbox]:checked + .checkbox:before {
+  opacity: 1;
+}
+
+.form input {
+  color: #AFA98D;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border: 0px solid transparent;
+  border-bottom: 1px solid #AFA98D;
+  width: 100%;
+}
+
+.form input::-webkit-input-placeholder {
+  font-size: 1rem;
+  color: #AFA98D;
+  letter-spacing: 0.2rem;
+}
+
+.form input:focus {
+  outline: 0;
+}
+
+.form button {
+  letter-spacing: 0.3rem;
+  width: 100%;
+}
+
+.btn-square {
+  display: inline-block;
+  padding: 1em 5em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-color: transparent;
+}
+
+.btn-square:hover {
+  background: #67c5ff;
+  color: white;
+}
+
+.table {
+  margin-top: 3rem;
+  text-align: right;
+  border: 1px solid lightgray;
+}
+
+.table th {
+  padding: 15px;
+  font-size: 1.5rem;
+  border: 1px solid lightgray;
+}
+
+.table td {
+  padding: 5px;
+  font-size: 1.0rem;
+  border: 1px solid lightgray;
+}
+
+.table .td-label {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.table .td-value {
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.minus {
+  color: blue;
+  font-style: bold;
+}
+
+.plus {
+  color: red;
+  font-style: bold;
+}
+
+.help-block {
+  color: #5E5C5E;
+}
+
+.no-list-style {
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: 1rem;
+}
+
